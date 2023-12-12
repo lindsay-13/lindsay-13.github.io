@@ -5,12 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+2023
+=====
+[Curriculum-Driven Edubot: A Framework for Developing Language Learning Chatbots Through Synthesizing Conversational Data](https://arxiv.org/pdf/2309.16804.pdf)
+Yu Li\*, Shang Qu\*, Jili Shen, Shangchao Min, Zhou Yu. *arXiv:2309.16804* preprint, 2023.
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+[Reformulating Sequential Recommendation: Learning Dynamic User Interest with Content-enriched Language Modeling](https://arxiv.org/pdf/2309.10435.pdf)
+Junzhe Jiang, Shang Qu, Mingyue Cheng and Qi Liu. *arXiv:2309.10435* preprint, 2023.
